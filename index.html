@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Santhosh's Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://kit.fontawesome.com/6514f15526.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h2 class="logo">
+                    <span>S</span>anthosh.
+                </h2>
+                <ul>
+                    <li><a href="#" class="tab-links">Home</a>
+                        <div></div>
+                    </li>
+                    <li><a href="#" class="tab-links">
+                            About</a>
+                        <div></div>
+                    </li>
+                    <li><a href="#" class="tab-links">Services</a>
+                        <div></div>
+                    </li>
+                    <li><a href="#" class="tab-links">Portfolio</a>
+                        <div></div>
+                    </li>
+                    <li><a href="#" class="tab-links">Contact</a>
+                        <div></div>
+                    </li>
+                </ul>
+                <div class="btn-wrap">
+                    <a class="download-btn" href="./SANTHOSHKUMAR-resume.pdf" download>Download Resume
+                        <span><i class="fa-solid fa-arrow-right-long"></i></span>
+                    </a>
+                </div>
+            </nav>
+
+            <div class="home">
+                <div>
+                    <img src="./portfolio-pic.jpeg">
+                </div>
+                <div class="home-content">
+                    <h2>I'm <span>Santhoshkumar,</span> frontend developer based in India.</h2>
+                    <p>I am a frontend developer from Coimbatore, India where I did my bachelors in
+                        Computer
+                        science
+                        and engineering at KGISL Institute of Technology.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="myPhoto.jpg" alt="myPhoto-image">
+                </div>
+                <div class="about-col-2">
+                    <h2 class="sub-title">About Me</h2>
+                    <p>I am an experienced Frontend Developer with over a decade of professional expertise in the
+                        field. My passion for frontend development is not only reflected in my extensive experience
+                        but also in the enthusiasm and dedication I bring to each project.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>
+                                <span>
+                                    UI/UX</span><br>Designing Web/App interfaces
+
+                            </li>
+                            <li>
+                                <span>
+                                    Web Development</span><br>Web app interfaces
+
+                            </li>
+                            <li>
+                                <span>
+                                    App Development</span><br>Building Android/ios apps
+
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>
+                                <span>
+                                    2024 - Current</span><br>Graduate Trainee at Annalect
+
+                            </li>
+                            <li>
+                                <span>
+                                    2024</span><br>Intern at Zoho Corp.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>
+                                    2020 - 2024</span><br>BE Computer science and engineering at KGISL Institute of
+                                Technology
+
+                            </li>
+                            <li>
+                                <span>
+                                    2020</span><br> Completed HSC with seventy percent at G.K.D Matriculation Higher
+                                Secondary
+                                School
+
+                            </li>
+                            <li>
+                                <span>
+                                    2018</span><br>Completed SSLC with Eight Five percentile at Brilliant
+                                Matriculation Higher Secondary School
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- services -->
+    <div id="services">
+        <div class="container">
+            <h2 class="sub-title">My Services</h2>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Web Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet numquam hic, nobis
+                        necessitatibus quos dolorem quibusdam amet quis dignissimos suscipit sapiente totam
+                        accusantium,
+                        quod quas, reprehenderit fugiat repudiandae incidunt corrupti.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-figma"></i>
+                    <h3>UI/UX Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet numquam hic, nobis
+                        necessitatibus quos dolorem quibusdam amet quis dignissimos suscipit sapiente totam
+                        accusantium,
+                        quod quas, reprehenderit fugiat repudiandae incidunt corrupti.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h3>App Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet numquam hic, nobis
+                        necessitatibus quos dolorem quibusdam amet quis dignissimos suscipit sapiente totam
+                        accusantium,
+                        quod quas, reprehenderit fugiat repudiandae incidunt corrupti.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h2 class="sub-title">My Work</h2>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./work1.jpg" alt="work-1">
+                    <div class="layer">
+                        <h3>Framer's App</h3>
+                        <p>Enhances farming practices by providing instant support, market
+                            insights, and weather-based crop management advice, fostering
+                            informed guidance and decision-making.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./work2.jpg" alt="work-2">
+                    <div class="layer">
+                        <h3>Space Exploration</h3>
+                        <p>Landing page to explore planets in space, the goal is to build
+                            an interactive and user-friendly user interface with a good
+                            transition effect.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./work3.jpg" alt="work-3">
+                    <div class="layer">
+                        <h3>Firegram</h3>
+                        <p>Created an Instagram-inspired photo gallery app using React
+                            and Firebase. Features included real-time feed updates, and
+                            seamless photo uploading.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="btn-wrap"><a href="#" class="btn">See more</a></div>
+    </div>
+    <!-- contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h2 class="subtitle">Contact Me</h2>
+                    <p><i class="fa-solid fa-paper-plane"></i>santhoshkumar@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>8754753470</p>
+                    <div class="social-icons">
+                        <a href="www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="./SANTHOSHKUMAR-resume.pdf" class="btn" download>Download Resume</a>
+                </div>
+
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button class="btn">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js">
+    </script>
+</body>
+
+</html>
